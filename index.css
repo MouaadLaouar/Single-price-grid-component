@@ -110,4 +110,48 @@ li {
     padding-bottom: 5px;
 }
 
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+@media (max-width: 375px) {
+    section {
+        height: 600px;
+        width: 300px;
+    }
+
+    .content-01 {
+        height: 200px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-1 {
+        width: 250px;
+    }
+
+    .content-02 {
+        height: 400px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-03 {
+        width: 200px;
+        border-radius: 0px ;
+
+    }
+
+    .content-04 {
+        border-radius: 0px 0px 10px 10px;
+        width: 200px;
+    }
+
+
+
+
+
+}
 
